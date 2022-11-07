@@ -26,5 +26,10 @@ pipeline {
                 echo 'It is dinner time!!!!'
             }
         }
+        stage('Food') {
+            steps {
+                echo 'where is my food???'
+            }
+        }
     }
 }
