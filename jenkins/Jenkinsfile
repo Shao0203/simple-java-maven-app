@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Game_Over') {
+        stage('Complete') {
             steps {
-                echo 'This is Game over !!!'
+                echo 'Job Complete !!!'
             }
         }
     }
